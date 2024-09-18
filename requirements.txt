@@ -2,7 +2,7 @@ streamlit
 pandas
 joblib
 scipy
-scikit-learn
+scikit-learn==1.5.1
 miceforest
 matplotlib
 catboost
