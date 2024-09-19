@@ -50,7 +50,7 @@ with st.form("input_form"):
     with col2:
         Housing_type = st.selectbox("Housing Type", options=['House / apartment', 'Co-op apartment', 'Municipal apartment', 'Office apartment', 'Rented apartment', 'With parents'], index=0)
         Birthday_count = st.number_input("Birthday Count", value=-18772.0)
-        Employed_days = st.number_input("Employed Days", min_value=0, value=365243)
+        Employed_days = st.number_input("Employed Days", value=365243)
         Mobile_phone = st.selectbox("Mobile Phone", options=['Y', 'N'], index=0)
         Work_Phone = st.selectbox("Work Phone", options=['Y', 'N'], index=1)
         Phone = st.selectbox("Phone", options=['Y', 'N'], index=1)
